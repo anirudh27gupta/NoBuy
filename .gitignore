@@ -1,0 +1,39 @@
+# Local environment files and credentials
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node and generated frontend output
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# User uploads and local data
+backend/uploads/*
+!backend/uploads/.gitkeep
+*.sqlite
+*.sqlite3
+*.db
+
+# Secrets and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+credentials*.json
+service-account*.json
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
